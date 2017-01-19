@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techpalle.serverexp1.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="getskillgunserverdata"
+       android:id="@+id/button"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="serverdata"
+        android:textColor="#f24"
+        android:id="@+id/textview"/>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
